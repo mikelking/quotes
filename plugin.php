@@ -47,7 +47,7 @@ class Quote_Controller extends WP_Base {
 	public function __construct() {
 		// sets up the activation, deactivation & uninstall plugin hooks
 		$this->init();
-		$this->quote = new Quote_Controller();
+		$this->quote = new Quote_CPT();
 	}
 
 	public function activator() {
