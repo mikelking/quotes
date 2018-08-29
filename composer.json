@@ -1,0 +1,12 @@
+{
+    "name": "mikelking/quotes",
+    "description": "Quotes CPT",
+    "keywords": ["plugin", "framework"],
+    "type": "wordpress-plugin",
+    "homepage": "https://github.com/mikelking/quotes",
+    "license": "BSD3",
+    "require": {
+        "php": ">=5.6",
+        "composer/installers": "v1.2.0"
+    }
+}
