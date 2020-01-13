@@ -23,7 +23,7 @@ class Quote_CPT extends Custom_Post_Type_Controller {
 		);
 	}
 
-	public function debug_cpt( $cpt_object, $msg ) {
+	public function debug_cpt( $cpt_object = null , $msg = null ) {
 		Quote_Debug::display_quote_data( $cpt_object, $msg );
 	}
 

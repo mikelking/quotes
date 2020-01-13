@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Quotes Post Type
-Version: 0.1.3
+Version: 0.1.5
 Description: Add the quotes custom post type .
 Author: Mikel King
 Text Domain: quotes-post-type
@@ -40,7 +40,7 @@ License URI: http://opensource.org/licenses/BSD-3-Clause
 require( 'inc/quote-cpt.php' );
 
 class Quote_Controller extends WP_Base {
-	const VERSION     = '0.1.3';
+	const VERSION     = '0.1.5';
 
 	public $quote;
 
